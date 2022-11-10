@@ -1,6 +1,6 @@
 import { render } from '@testing-library/react';
 import userEvent from '@testing-library/user-event';
-import { toBeInTheDocument } from '@testing-library/jest-dom';
+import '@testing-library/jest-dom';
 import { ldHook } from './utils';
 
 import App from "./App";
